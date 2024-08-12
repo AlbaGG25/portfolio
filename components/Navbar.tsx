@@ -11,10 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white p-4 fixed w-full z-10">
+    <nav className="text-white pt-4 fixed w-full z-50">
       <div className="container mx-auto flex justify-center items-center cursor-pointer ">
         <div
-          className={`fixed md:relative inset-0 bg-black md:bg-transparent bg-opacity-90 flex flex-col md:flex-row justify-center md:justify-center items-center transition-transform duration-300 md:border-2 md:border-white md:rounded-full md:p-6 ${
+          className={`fixed md:relative inset-0 bg-black  bg-opacity-90 flex flex-col md:flex-row justify-center md:justify-center items-center transition-transform duration-300 md:border-2 md:border-white md:rounded-full md:p-4 ${
             menuOpen ? "block" : "hidden"
           } md:flex md:space-x-6`}
         >
@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="md:hidden ml-auto" onClick={handleClick}>
+        <div className="md:hidden ml-52" onClick={handleClick}>
           <div className="space-y-2">
             <span
               className={`block w-8 h-1 rounded bg-white transform transition duration-300 ${
