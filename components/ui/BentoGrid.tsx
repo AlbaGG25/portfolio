@@ -51,7 +51,7 @@ export const BentoGridItem = ({
         background: "rgb(4,7,29)",
       }}
     >
-   <div className={`${id === 1 ? 'flex flex-col h-full  ': '' }`}>
+   <div className={`${id === 5 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -109,8 +109,10 @@ export const BentoGridItem = ({
         )}
         {id === 5 && (
           <div className="mt-5 relative">
-            <div className={`absolute -bottom-5 right-0`}>
-                 
+            <div className='flex justify-center '>
+                 <a title="Send me an email" type="submit" className="border border-white/[0.2] bg-[#04071d] text-white  rounded-lg p-1.5 md:p-5 mt-5" href="mailto:developerdrm@gmail.com">
+                 Send me an email!
+                 </a>
             </div>
           </div>
         )}
