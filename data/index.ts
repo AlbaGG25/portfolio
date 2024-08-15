@@ -6,7 +6,7 @@
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/PC.jpg",
       spareImg: "",
     },
     {
@@ -42,7 +42,7 @@
     ,
     {
       id: 5,
-      title: "Would you like to work on a project with me?",
+      title: "Interested in working together? Let’s schedule a meeting.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -57,8 +57,8 @@
       id: 1,
       title: "Health Appointments App",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      img: "/doc.jpg",
+      iconLists: ["/nuxt.svg", "/tail.svg", "/ts.svg", "/mondb.svg"],
       link: "/ui.earth.com",
     },
     {
@@ -66,7 +66,7 @@
       title: "WomenTechmakers Madrid 2024 Event",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/WTM.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/js.svg", "/sass.svg", "/CSS3.svg", "/HTML5.svg"],
       link: "https://wtmgdgmadrid.github.io/",
     },
     {
@@ -74,15 +74,15 @@
       title: "Project Cards Generator",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/PM.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/mysql.svg", "/sass.svg"],
       link: "https://proyectos-magicos.onrender.com/",
     },
     {
       id: 4,
       title: "Art Shop",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      img: "/art.jpg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
       link: "/ui.apple.com",
     },
   ];

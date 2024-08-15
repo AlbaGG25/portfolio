@@ -13,7 +13,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-6 max-w-8xl mx-auto lg:px-20",
         className
       )}
     >
@@ -91,7 +91,7 @@ export const BentoGridItem = ({
 
             <div className="flex gap-2 ">
               {['React.js', 'Next.js', 'Nuxt.js'].map((item)=> (
-              <span key={item} className="md:flex-wrap py-2 md:py-4 lg:py-3 px-3 text-xs lg:text-base text-white opacity-50 lg:opacity-100 rounded-full text-center bg-grey">
+              <span key={item} className="md:flex-wrap py-2 md:py-4 lg:py-3 px-3 text-xs lg:text-base text-white opacity-50 lg:opacity-100 rounded-2xl text-center bg-grey">
                 {item}
               </span>
               ))}
@@ -100,7 +100,7 @@ export const BentoGridItem = ({
             <div className="flex gap-2 ">
 
               {['MongoDB', 'MySQL', 'Node.js'].map((item)=> (
-              <span key={item} className="md:flex-wrap py-2 md:py-4 lg:py-3 px-3 text-xs lg:text-base text-white opacity-50 lg:opacity-100 rounded-full text-center bg-grey">
+              <span key={item} className="md:flex-wrap py-2 md:py-4 lg:py-3 px-3 text-xs lg:text-base text-white opacity-50 lg:opacity-100 rounded-2xl text-center bg-grey">
                 {item}
               </span>
               ))}

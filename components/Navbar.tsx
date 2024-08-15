@@ -11,12 +11,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white pt-4 fixed w-full z-50">
-      <div className="container mx-auto flex justify-center items-center cursor-pointer ">
+    <nav className="text-white fixed w-full z-50 md:p-8">
+      <div className="flex cursor-pointer ">
         <div
-          className={`fixed md:relative inset-0 bg-black  bg-opacity-90 flex flex-col md:flex-row justify-center md:justify-center items-center transition-transform duration-300 md:border-2 md:border-white md:rounded-full md:p-4 ${
+          className={`fixed md:relative inset-0 bg-opacity-90 flex flex-col md:flex-row justify-center md:justify-end items-center transition-transform duration-300 md:p-5 ${
             menuOpen ? "block" : "hidden"
-          } md:flex md:space-x-6`}
+          } md:flex  md:w-full`}
         >
           <ul className="text-lg uppercase space-y-8 md:space-y-0 md:flex md:space-x-6">
             <li>
