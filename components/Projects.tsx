@@ -5,7 +5,7 @@ import { projects } from '@/data'
 const Projects = () => {
   return (
     <div className="py-20 mx-auto">
-      <h1 className="text-3xl uppercase font-bold text-white text-center">
+      <h1 className="text-xl md:text-5xl font-bold text-white text-center">
         Selection of { ' ' }
         <span className="text-gold">projects</span>
       </h1>

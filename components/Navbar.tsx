@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,10 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white fixed w-full z-50 md:p-8">
-      <div className="flex cursor-pointer ">
+    <nav className="text-white fixed w-full  bg-black bg-opacity-90 md:bg-opacity-60 z-50 p-4 md:p-8">
+      <div className="flex cursor-pointer md:h-full">
+              
         <div
-          className={`fixed md:relative inset-0 bg-opacity-90 flex flex-col md:flex-row justify-center md:justify-end items-center transition-transform duration-300 md:p-5 ${
+          className={`fixed md:relative inset-0 flex flex-col md:flex-row justify-center md:justify-end items-center transition-transform duration-300  ${
             menuOpen ? "block" : "hidden"
           } md:flex  md:w-full`}
         >
@@ -35,13 +37,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contact">
+              <Link href="#contact">
                 <p className="block py-2 md:py-0 text-center">Contact</p>
               </Link>
             </li>
           </ul>
         </div>
-        <div className="md:hidden ml-52" onClick={handleClick}>
+        <div className="md:hidden flex justify-self-end" onClick={handleClick}>
           <div className="space-y-2">
             <span
               className={`block w-8 h-1 rounded bg-white transform transition duration-300 ${
