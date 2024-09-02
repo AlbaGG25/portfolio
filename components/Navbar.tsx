@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="md:hidden flex justify-self-end" onClick={handleClick}>
+        <div className="md:hidden flex justify-end" onClick={handleClick}>
           <div className="space-y-2">
             <span
               className={`block w-8 h-1 rounded bg-white transform transition duration-300 ${

@@ -1,15 +1,45 @@
 import React from "react";
+import Link from "next/link";
+import Github from "./icons/Github";
+import Linkedin from "./icons/Linkedin";
+import Mail from "./icons/Mail"
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="flex flex-col items-center text-center">
-        <h1 className="text-lg md:text-3xl font-bold text-white text-center lg:max-w-[45vw]">
-          Searching for a developer who’s
-          <span className="text-gold"> as passionate about user experience as you are? </span>
-          Contact me.
-        </h1>
-      </div>
+    <footer
+      className="w-full pt-20 pb-10 mx-auto flex flex-col justify-center items-center gap-5 md:flex-row md:justify-around"
+      id="footer"
+    >
+      <div className="text-white md:text-2xl">© 2024 Alba Ginés</div>
+      <section className="flex gap-5 md:text-3xl">
+        <Link
+          href="https://github.com/AlbaGG25"
+          target="_blank"
+          rel=" noreferrer"
+          title="GitHub"
+           className="relative z-10"
+        >
+         <Github />
+        </Link>
+        <a
+          href="https://www.linkedin.com/in/alba-gg/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Linkedin"
+          className="relative z-10"
+        >
+          <Linkedin />
+        </a>
+        <a
+          href="mailto:developerdrm@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Mail"
+          className=" relative z-10"
+        >
+          <Mail />
+        </a>
+      </section>
     </footer>
   );
 };
