@@ -8,9 +8,11 @@ export default function Linkedin() {
       width="50"
       height="50"
       viewBox="0,0,256,256"
+      className="hover:trasform hover:scale-125"
     >
       <g
         fill="#ffffff"
+        className=" hover:fill-gold"
         fill-rule="nonzero"
         stroke="none"
         stroke-width="1"

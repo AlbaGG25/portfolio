@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel=" noreferrer"
           title="GitHub"
-           className="relative z-10"
+           className="relative z-10 "
         >
          <Github />
         </Link>

@@ -26,9 +26,11 @@ const Projects = () => {
                 </div>
                 )}
               </div>
+           
               <div className="border border-white/[0.5] p-3 rounded-lg text-center">
-                <p>Check Live Site</p>
+                <p>Live Site</p>
               </div>
+              
             </div>
           </PinContainer>
         </div>

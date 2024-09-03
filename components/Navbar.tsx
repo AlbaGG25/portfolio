@@ -20,25 +20,25 @@ const Navbar = () => {
             menuOpen ? "block" : "hidden"
           } md:flex  md:w-full`}
         >
-          <ul className="text-lg uppercase space-y-8 md:space-y-0 md:flex md:space-x-6">
+          <ul className="text-lg lg:text-2xl uppercase space-y-8 md:space-y-0 md:flex md:space-x-6 ">
             <li>
-              <Link href="/">
-                <p className="block py-2 md:py-0 text-center">Home</p>
+              <Link href="#">
+                <p className="block py-2 md:py-0 text-center  hover:bg-slate-600 transition-opacity duration-300 hover:opacity-40 hover:rounded-xl ">Home</p>
               </Link>
             </li>
             <li>
-              <Link href="/about">
-                <p className="block py-2 md:py-0 text-center">About</p>
+              <Link href="#about">
+                <p className="block py-2 md:py-0 text-center  hover:bg-slate-600 transition-opacity duration-300 hover:opacity-40 hover:rounded-xl">About</p>
               </Link>
             </li>
             <li>
-              <Link href="/projects">
-                <p className="block py-2 md:py-0 text-center">Projects</p>
+              <Link href="#projects">
+                <p className="block py-2 md:py-0 text-center  hover:bg-slate-600 transition-opacity duration-300 hover:opacity-40 hover:rounded-xl">Projects</p>
               </Link>
             </li>
             <li>
               <Link href="#contact">
-                <p className="block py-2 md:py-0 text-center">Contact</p>
+                <p className="block py-2 md:py-0 text-center  hover:bg-slate-600 transition-opacity duration-300 hover:opacity-40 hover:rounded-xl">Contact</p>
               </Link>
             </li>
           </ul>
