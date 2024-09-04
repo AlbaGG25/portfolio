@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col justify-enter items-center ">
-        <h1 className="text-white mb-6 font-bold text-base sm:text-3xl md:text-4xl lg:text-6xl text-center">
+        <h1 className="sm:pt-26 text-white mb-6 font-bold text-base sm:text-3xl md:text-4xl lg:text-6xl text-center">
           Alba Ginés
         </h1>
         <h2 className="text-white mb-6 text-base text-center sm:text-l md:text-xl lg:text-3xl">
